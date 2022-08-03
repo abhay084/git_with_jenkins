@@ -1,7 +1,7 @@
 pipeline{
     agent 
     {
-        label "docker-slave-1"
+        label "linux-perm-slave-1"
     }
 
     stages{
