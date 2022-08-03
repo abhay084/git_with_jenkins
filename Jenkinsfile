@@ -1,5 +1,8 @@
 pipeline{
-    agent 'docker-slave-1'
+    agent 
+    {
+        label "docker-slave-1"
+    }
 
     stages{
         stage('SCM'){
